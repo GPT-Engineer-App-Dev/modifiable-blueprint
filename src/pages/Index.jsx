@@ -33,7 +33,7 @@ export default function Index() {
         </Card>
       </main>
 
-      <footer className="mt-8 text-center bg-blue-600 text-white py-4">
+      <footer className="mt-8 text-center bg-red-600 text-white py-4">
         <p>&copy; 2023 My App. All rights reserved.</p>
       </footer>
     </div>
