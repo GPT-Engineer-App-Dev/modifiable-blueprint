@@ -33,8 +33,14 @@ export default function Index() {
         </Card>
       </main>
 
-      <footer className="mt-8 text-center bg-red-600 text-white py-4">
-        <p>&copy; 2023 My App. All rights reserved.</p>
+      <footer className="mt-8 text-center bg-red-600 text-white py-8">
+        <div className="text-xl font-semibold mb-2">My App</div>
+        <p className="text-lg">&copy; 2023 My App. All rights reserved.</p>
+        <div className="mt-4 space-x-4">
+          <Button variant="ghost" className="text-white hover:text-red-200">About</Button>
+          <Button variant="ghost" className="text-white hover:text-red-200">Contact</Button>
+          <Button variant="ghost" className="text-white hover:text-red-200">Privacy Policy</Button>
+        </div>
       </footer>
     </div>
   );
