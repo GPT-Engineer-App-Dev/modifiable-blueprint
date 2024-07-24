@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'luc
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-red-600 text-white py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Contact Information */}
@@ -27,16 +27,16 @@ const Footer = () => {
           <div className="w-full md:w-1/3 mb-6 md:mb-0 text-center">
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex justify-center space-x-4">
-              <a href="#" className="hover:text-blue-400 transition-colors">
+              <a href="#" className="hover:text-blue-300 transition-colors">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
+              <a href="#" className="hover:text-blue-300 transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-pink-400 transition-colors">
+              <a href="#" className="hover:text-pink-300 transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-blue-600 transition-colors">
+              <a href="#" className="hover:text-blue-300 transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>
